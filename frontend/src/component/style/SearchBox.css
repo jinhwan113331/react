@@ -1,0 +1,35 @@
+.search-box {
+    display: flex;
+    align-items: center;
+    background-color: #4a90e2; /* 배경색 */
+    border-radius: 50px; /* 둥근 모서리 */
+    padding: 10px 20px; /* 내부 여백 */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* 그림자 */
+    max-width: 800px; /* 최대 너비 */
+    margin: 0 auto; /* 가운데 정렬 */
+}
+
+.search-box input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 25px;
+    margin-right: 10px;
+    font-size: 16px;
+    outline: none;
+}
+
+.search-box button[type="submit"] {
+    background-color: #fff;
+    color: #4a90e2;
+    border: none;
+    border-radius: 25px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.search-box button[type="submit"]:hover {
+    background-color: #e6e6e6;
+}
